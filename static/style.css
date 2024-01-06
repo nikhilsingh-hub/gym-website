@@ -1,0 +1,91 @@
+body{
+    font-family: 'Alkatra', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym (2).jpg');
+    width: 100%;
+    height: 100%;
+}
+.left img{
+    width: 53px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.upper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mid{
+
+    width:33%;
+}
+.left{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    font-family: 'Alkatra', cursive;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border:2px solid #070707;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: grey;
+}
+
+/* --------------------------------------Below Nav Bar------------------------------------------------ */
+.container{
+border: 2px solid green;
+margin: 200px 120px;
+padding: 0px 41px;
+width: 33%;
+border-radius: 25px;
+border-color: white;
+}
+h3{
+margin: 15px 82px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin: 2px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btn1{
+    font-family: 'Alkatra', cursive;
+    margin: 2px 278px;
+    margin-bottom: 4px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border:2px solid #070707;
+    cursor: pointer;
+    border-radius: 30px;
+}
